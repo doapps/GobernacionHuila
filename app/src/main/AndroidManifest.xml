@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="gobernacion.huila.activities.MainActivity"
+            android:name="gobernacion.huila.activities.InicioActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +16,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.MenuActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.AudiosActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.ImagenesActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.InstitucionalActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.NoticiasActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.PreguntaActivity"
+            android:label="menu" >
+        </activity>
+        <activity
+            android:name=".activities.TvActivity"
+            android:label="menu" >
+        </activity>
+
     </application>
 
 </manifest>
